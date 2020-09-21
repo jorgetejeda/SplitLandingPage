@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  transition: all .4s;
+}
+
+section:hover{
+    flex:2;
+}
+
+h1{
+    background: rgb(0, 0, 0, 0.6);
+    padding: 20px 42px;
+    color:white;
+    border-radius: 25px;
+}
+
+.development{
+    background: url("/img/development.jpeg") center;
+    background-size: cover;
+}
+.app_mobile{
+    background: url("/img/app-mobile.jpg") center;
+    background-size: cover;
+}
+.design{
+    background: url("/img/design.jpeg");
+    background-size: cover;
+}
