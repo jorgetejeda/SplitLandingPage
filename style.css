@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   display: flex;
 }
 
@@ -33,14 +33,14 @@ h1{
 }
 
 .development{
-    background: url("/img/development.jpeg") center;
+    background: url("./img/development.jpeg") center;
     background-size: cover;
 }
 .app_mobile{
-    background: url("/img/app-mobile.jpg") center;
+    background: url("./img/app-mobile.jpg") center;
     background-size: cover;
 }
 .design{
-    background: url("/img/design.jpeg");
+    background: url("./img/design.jpeg");
     background-size: cover;
 }
